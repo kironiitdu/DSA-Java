@@ -9,14 +9,15 @@ public class Array {
 
     public void Insert(int item) {
         items[count++] = item;
-        // if (items.length == count) {
-        // ] newItems = new int[count * 2];
-        // (int i = 0; i < count; i++) {
-        // [i] = items[i];
-        // newItems;
-        // 
+        if (items.length == count) {
+            int[] newItems = new int[count * 2];
 
-        // }
+            for (int i = 0; i < count; i++)
+                newItems[i] = items[i];
+
+            items = newItems;
+        }
+
     }
 
     public void Print() {
