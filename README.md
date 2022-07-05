@@ -1,6 +1,6 @@
-## Getting Started
+## Data Structure and Algorithm Implementtation Using Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Data Structure and Algorithm Implementtation Using Java. Here is a guideline to help you get started to write Data Structure and Algorithm Implementtation using Java code in Visual Studio Code.
 
 ## Folder Structure
 
