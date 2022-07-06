@@ -20,6 +20,16 @@ public class Array {
 
     }
 
+    public int IndexOf(int item) {
+        // Runtime complexity
+        // Best Case O(1) if found at the begining
+        // Worst case O(n) if found at the end
+        for (int i = 0; i < count; i++)
+            if (items[i] == item)
+                return i;
+        return -1;
+    }
+
     public void Print() {
         for (int i = 0; i < count; i++)
             System.out.println(items[i]);
