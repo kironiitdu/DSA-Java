@@ -30,6 +30,25 @@ public class Array {
         return -1;
     }
 
+    public int FindMax(int[] array) {
+        // Check if the array is empty
+        if (array.length == 0)
+            return -1;
+
+        // First Consider array[0] means 10 as max
+        int isMax = array[0];
+
+        for (int i = 1; i < array.length; i++) {
+            // Runtime complexity is O(n) linear of it input size
+            // Check if array[0] means 10 is grether than array[i] means next number
+            // If array[i] is greter than isMax we need to re assign isMax with latest max
+            // value.
+            if (array[i] > isMax)
+                isMax = array[i]; // assign next max number into isMax
+        }
+        return isMax;
+    }
+
     public void Print() {
         for (int i = 0; i < count; i++)
             System.out.println(items[i]);

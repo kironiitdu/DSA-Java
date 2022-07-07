@@ -5,8 +5,6 @@ public class App {
         numbers.Insert(20);
         numbers.Insert(30);
         numbers.Insert(40);
-
-        System.out.println(numbers.IndexOf(50));
         numbers.Print();
 
     }
